@@ -7,9 +7,9 @@ Volley Library
   - Add this to your App Gradle ->  implementation 'com.mcxiaoke.volley:library:1.0.1'
 Changes to the Manifest:
       - Under the application tag ->
-                  &lt;uses-library android:name="org.apache.http.legacy" android:required="false" /&lt;
+                  &lt;uses-library android:name="org.apache.http.legacy" android:required="false" /&gt;
       - Under the Permissions tag ->
-                  &lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /&lt;
-                  &lt;uses-permission android:name="android.permission.INTERNET" /&lt;
+                  &lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /&gt;
+                  &lt;uses-permission android:name="android.permission.INTERNET" /&gt;
             
 
