@@ -32,12 +32,12 @@ public class CurrencyConverter {
     private static final String FILE_NAME = "exchange_rates.json";
     private JSONObject currencies;
 
-    private CurrencyConverter(Application context) {
+    private CurrencyConverter(Context context) {
         ///Execute on creation.
         loadJSONFile(context);
     }
 
-    public static CurrencyConverter getInstance(Application context) {
+    public static CurrencyConverter getInstance(Context context) {
         if(instance == null) instance = new CurrencyConverter(context);
         return instance;
     }
