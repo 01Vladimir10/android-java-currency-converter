@@ -26,7 +26,7 @@ public class CurrencyConverter {
     private static  final int updateFrequencyInDays = 1;
     private static final String LAST_UPDATED = "last_updated";
     private static final String TAG = "CURRENCY_CONVERTER";
-    private static final String ACCESS_KEY = "f0489ac5fe256a5554d1740a2aaca4ce";
+    private static final String ACCESS_KEY = "YOUR_ACCESS_KEY";
     private static final String BASE_URL = "http://api.currencylayer.com/";
     private static final String ENDPOINT = "live";
     private static final String FILE_NAME = "exchange_rates.json";
